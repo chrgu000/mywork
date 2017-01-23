@@ -28,5 +28,6 @@ def getImg(html):
 #    return imglist
 
 #getImg(getHtml("http://www.w3school.com.cn/html/"))
-getImg(getHtml("http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"))
+if __name__ == '__main__':
+	getImg(getHtml("http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"))
 

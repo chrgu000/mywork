@@ -25,5 +25,5 @@ def resize_img(lan=100):
 			newimg.save('new_'+f)
 		else:
 			print("this picture is ok!")
-
-resize_img()
+if __name__ == '__main__':
+	resize_img()

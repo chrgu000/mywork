@@ -29,4 +29,5 @@ def code_image(path="/opt/sources/img"):
 	draw.rectangle((10,10,280,80),outline = "yellow")
 	im.save(path+"/checkcode.jpg")
 
-code_image()
+if __name__ == '__main__':
+	code_image()
