@@ -1,0 +1,95 @@
+
+Your Server IP2:  210.209.70.44		香港
+Your Server Port:  18989 
+Your Password:  abc123 
+Your Local IP:  127.0.0.1 
+Your Local Port:  1080 
+Your Encryption Method:  aes-256-cfb
+
+
+ServerIP:10.27.17.207
+username:vpn
+password:GcUkriEm
+PSK:vpn
+
+dnspord的本地dns优化
+
+218.161.26.192 zhiwei.zhang/ydcn1405 PPTP
+
+//==========================================================================================
+IP: 10.27.0.27
+PORT: 1521
+ServiceNames: standby
+USERNAME/PASSWORD: FEG_ACQ/acq_140928
+USERNAME/PASSWORD: FEG_ISU/isu_140928
+USERNAME/PASSWORD: FEG_SEC/sec_140928
+//==========================================================================================
+#命令调用
+curl -d "user=webup&pwd=webup&count=10&pageno=1" http://upapitest.kaixingocard.com.cn/app-api/merchant/getList
+#浏览器调用api
+//调用api（火狐的httprequester）
+http://211.144.206.73:8800/heo/function/2/ganzhi
+
+{datas:
+	{data:[
+ 		{"errcode":"0","mac":"99:cb:87:1e:10:2a","wlan_id":"A160329M3S1","first_visit_time":"2016-04-30 23:54:32","visit_num":"7","banner":"apple",
+		"sc_num":1,"last_sens":"-77","near_field_time":"2016-05-05 23:57:09","resident_time":"2016-05-05 23:57:09",
+		"last_time":"2016-10-12 10:07:09","location_id":"16123239-375066214","location_remark":"3F_No.27","wifi_info":""}
+		]
+	}
+}
+
+
+//==========================================================================================
+ip=ifconfig |grep Bcast|awk -F ":" '{print $2}'|awk '{print $1}'ls /home
+修改后缀名：				find . -name "*.sh" |sed 's/\(.*\)\.sh/cp \0 \1.SH/'|sh
+现在一个后缀名档：		find . -name "*.sh" |sed 's/\(.*\)\.sh/touch \1.SH/'|sh
+//==========================================================================================
+prod官网后台：		http://www.goukaixincard.com/user		admin1/Ydup74itw	yd_webmaster/111111
+官网云主机	http://image.kaixingocard.com.cn/
+活动云主机	http://image.goukaixincard.com.cn/
+	
+UAT官网后台：	http://uptest.kaixingocard.com.cn/user	admin1/abcd1234
+prod通用密码		admin/TYZCpassword.2015	http://www.goukaixincard.com/merchant_reg/index.php/auth/login
+prodEC			admin/ecpasswd.2016	(ecadmin2016)[目前是前面一个]	
+prod微信密码		admin1/YDgpSpz$@B 	 http://wx.goukaixincard.com/	
+		//账号			密码			备注
+		ydmanager		yd12345			管理员		
+		weixin_manager	mkt12345		远鼎特约商
+		cq01			5sevcwqq		重庆
+		cd01			sp4dp4hk		成都
+		wx01			bc337f34		无锡
+		dl01			tv3mqkdd		大连
+		sh01			af8dkeltdg		上海
+		ylp2015			123456			上海雅绿霈贸易有限公司
+UAT微信密码		admin1/abcd1234   	 http://wx.goukaixincard.com/
+//==========================================================================================
+生产DB账号		zhiwei_zhang	ydcn150522			10.27.0.37:3312/3306(r/w)
+Zabbix DB账号	zhiwei_zhang 	123123				10.27.14.103
+#########################################################
+testbugzilla:	zhiwei.zhang@yfinfoservice.com	123456
+//==========================================================================================
+#!/bin/env bash
+username="zhiwei.zhang"
+useradd $username
+echo 123123|passwd --stdin $username
+#sed -i "98a $username ALL=(root) ALL" /etc/sudoers
+
+useradd sammy.qiu
+echo 123123|passwd --stdin sammy.qiuyi
+//==========================================================================================
+GRA-UL00
+T7G0215728000568
+866696026852531
+90435499
+990002201607050007
+\\10.27.22.1\share
+jboss
+sHpZKQG57AH7pH4noMCW
+//==========================================================================================
+zhiwei.zhang jaunty4618738
+jaunty.4618738
+caohairong100/Suwei85A
+
+
+

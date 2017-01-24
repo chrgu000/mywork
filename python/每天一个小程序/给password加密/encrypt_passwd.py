@@ -2,7 +2,6 @@
 #-*- coding:utf-8 -*-
 
 import os
-import getpass
 from hashlib import sha256
 from hmac import HMAC
 
@@ -25,16 +24,5 @@ def encrypt_password(password, salt=None):
 
     return salt + result
 
-#验证函数:
-def validate_password(hashed,input_password):
-	return hashed == encrypt_password(input_password, salt=hashed[:8])
-
-def login(): 
-	hashed=encrypt_password('123123')
-	if validate_password(hashed,getpass.getpass("请输入密码:")) is True:
-		print("密码正确")
-	else:
-		print("密码错误")
-	
-if __name__ == '__main__':
-	login()
+hashed=encrypt_password('123123')
+print hashed

@@ -1,0 +1,54 @@
+操作系统：Centos,Ubuntu,Redhat,suse，Freebsd
+
+网站服务：nginx,apache,lighttpd,php,tomcat,resin
+
+数据库：  MySQL,Mysql-proxy,MariaDB，PostgreSQL，Oracle
+
+代理相关：lvs,keepalived,haproxy,nginx,apache,heartbeat
+
+网站缓存：squid,nginx,varnish
+
+NOSQL库： memcached,memcachedb,TokyoTyrant,MongoDB,Cassandra,redis,CouchDB
+
+存储相关：Nfs,Moosefs(mfs),Hadoop,glusterfs,lustre,FastDFS
+
+版本管理：svn,git
+
+监控报警：nagios,cacti,zabbix,munin,hyperic,mrtg
+
+域名解析：bind,powerdns,dnsmasq
+
+同步软件：rsync,inotify,sersync,drbd,csync2,union,lsyncd,scp
+
+批量管理：ssh+rsync+sersync,Saltstack,expect,puppet,cfengine
+
+虚拟化：  kvm,xen,vmware
+
+云计算：  openstack,cloudstack
+
+内网软件：iptables,zebra,iftraf,ntop,tc,iftop
+
+邮件软件：qmail,posfix,sendmail
+
+远程拨号：openvpn,pptp,openswan,ipip
+
+统一认证：openldap(可结合微软活动目录)
+
+队列工具：ActiveMQ,RabbitMQ,Metaq,MemcacheQ,Zeromq
+
+打包发布：mvn,ants,jenkins
+
+测试软件：apacheab,smokeping,siege,JMeter,Webbench,LoadRunner（此行都是）
+
+日志相关：syslog,rsyslog,Awstats,flume logstash scribe kafka
+
+DB代理：  mysql-proxy,amoeba（更多还是程序实现读写分离）
+
+搜索软件：Sphinx,Xapian（大公司会自己开发类似百度的小规模内部搜索引擎）
+
+python	django flask bottle
+cocos2D 
+
+存储过程
+ffmpeg
+
